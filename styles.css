@@ -1,0 +1,36 @@
+/* External CSS: */
+/*
+CSS Selector: body - elementet vi vil modifisere
+CSS Declaration: {} - identifiserer hvor vi skriver koden for modifisering
+CSS Rule: backbround-color: blue; - 'key' på hva skal modifseres og 'value' til hvordan det skal modifiserest
+*/
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    /* 'Shorthand' metode */
+    border: 3px black solid;
+    /* 'Longhand' metode
+    border-width: 3px;
+    border-color: black;
+    border-style: solid;
+    */
+    padding: 10px;
+    border-radius: 50%;
+}
+
+img {
+    max-width: 100%;
+}
+
+.hero {
+    display: flex;
+}
+
+.heroText, .heroImg {
+    width: 50%;
+}
